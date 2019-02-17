@@ -5,16 +5,17 @@ namespace ejercicio7
 	{
 		static void Main(String[] args)
 		{
-			int peso;
-			double altura;
-			double imc;
+			int peso; //Una variable tipo entero para el peso.
+			double altura; //Unas que retornen en flotante para la división.
+			double imc;//Acá igual.
 			//string causa;
 			//string efecto;
 			//string c_medica;
             /*Esos comentarios estarán ahí hasta la actualización del bucle. "Proxima update."*/
-			string nombre_usuario;
-		    string apellido;
-
+			
+			string nombre_usuario;//Declaramos una variable tipo String para caracteres que serán usados despues.
+		    	string apellido;//Acá igual.
+			//Mensaje de bienvenida
 			Console.WriteLine("Éste es un calculador de su IMC ´Indice de masa corporal´ el cual determina la complexión de tu cuerpo. ¿Are you ready?\n if you´re ready press any key.");
 			Console.ReadKey();
 			Console.Clear();
@@ -31,10 +32,10 @@ namespace ejercicio7
 			Console.WriteLine("Bien, todo bien hasta ahora. Ahora digite su altura. ¡Ojo! La altura ha de estár en metros: (Ejemplo: 1.70) ");
 			altura = Convert.ToDouble(Console.ReadLine());
 			Console.Clear();
-			imc = Convert.ToDouble(peso/(altura*altura));
-
-			//Let´s go, baby.//
-			if (imc <= 16)
+			imc = Convert.ToDouble(peso/(altura*altura));//Ahí es donde se produce el calculo 
+			//Ahí comienza la fiesta
+			//Let´s go, baby.
+			if (imc <= 16)//Si los datos introducidos por el usuario denotan en un imc por debajo a 16 resultará en el mensaje de ahí abajo.
             {
                 Console.WriteLine("Hem... No son muy buenas noticias que digamos... señor/a {0}", nombre_usuario +" Su peso está muy por debajo de los estandares.\n\n Nivel: Infrapeso\n Su imc total es: "+Math.Floor(imc));
                 Console.Write("");
@@ -94,4 +95,4 @@ namespace ejercicio7
 
 		}
 	}
-}
+}/*Supongo que todo el codigo es facilmente legible, ya que hace uso de condiciones, variables simples & demás que cualquiera iniciando en la programacion sabría*/
