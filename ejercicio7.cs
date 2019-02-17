@@ -8,13 +8,15 @@ namespace ejercicio7
 			int peso; //Una variable tipo entero para el peso.
 			double altura; //Unas que retornen en flotante para la división.
 			double imc;//Acá igual.
-			//string causa;
+			//string causa;a
 			//string efecto;
 			//string c_medica;
             /*Esos comentarios estarán ahí hasta la actualización del bucle. "Proxima update."*/
 			
 			string nombre_usuario;//Declaramos una variable tipo String para caracteres que serán usados despues.
 		    	string apellido;//Acá igual.
+			/*Postdata: En las variables de caracteres también puede ser utilicado el tipo "dinamyc o dinamic" No recuerdo como se escribe. xd
+			ambas funcionan para cadena de caracteres.*/
 			//Mensaje de bienvenida
 			Console.WriteLine("Éste es un calculador de su IMC ´Indice de masa corporal´ el cual determina la complexión de tu cuerpo. ¿Are you ready?\n if you´re ready press any key.");
 			Console.ReadKey();
