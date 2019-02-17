@@ -1,7 +1,7 @@
 using System;
-namespace ejercicio7
+namespace anyworld
 {
-	class tarea
+	class anyworld
 	{
 		static void Main(String[] args)
 		{
